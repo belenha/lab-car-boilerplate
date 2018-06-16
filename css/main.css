@@ -1,1 +1,9 @@
-/* Los estilos de tu proyecto */
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 1); }
+
+nav{
+    height: 80px;
+}
+
+.taxi{
+    height: 50%;
+}
