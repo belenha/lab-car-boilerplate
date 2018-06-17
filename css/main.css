@@ -1,9 +1,55 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 1); }
 
 nav{
-    height: 80px;
+    height: 70px;
+}
+.taxi-image{
+    background-image: url("../assets/images/taxi.png");
+    background-size: cover;
+    height: 700px;
 }
 
-.taxi{
-    height: 50%;
+h4, h5, h6{
+    font-weight: 600;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+.space{
+    position: relative;
+    top: 220px;
+}
+
+.middle-section{
+    padding: 2.5em;
+}
+
+.white-border{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 0;
+    padding: 3em;
+}
+
+.drive{
+    background-image: url("../assets/images/conduce.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.iphone, .description{
+    margin: 2em 0em;
+    font-size: 1.2em;
+    line-height: 2em;
 }
