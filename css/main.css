@@ -75,3 +75,16 @@ h4, h5, h6{
     font-weight: 600;
     text-transform: initial;
 }
+
+
+.last-btn{
+    font-weight: 600;
+    padding: 0em 2.5em;
+}
+
+.bordesblancos{
+    border: 1px solid #fafafa;
+}
+.prefix{
+    color: white;
+}
