@@ -5,6 +5,11 @@ body{
     box-sizing: border-box;
 }
 
+.brand-logo{
+    left: 5%;
+    position: relative;
+}
+
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 1); }
 
 nav{
@@ -79,12 +84,55 @@ h4, h5, h6{
 
 .last-btn{
     font-weight: 600;
+    left: 25%;
+    margin-bottom: 3em;
+    margin-top: 1em;
     padding: 0em 2.5em;
+    position: relative;
 }
 
-.bordesblancos{
+input[type=text]:not(.browser-default){
     border: 1px solid #fafafa;
+    border-radius: 10px;
+    margin-bottom: 0.2em;
 }
 .prefix{
     color: white;
+}
+
+.input-field:last-child{
+    display: inherit;
+    position: relative;
+}
+
+span{
+    left: 10px;
+    position: relative;
+}
+
+.last-logo{
+    padding-bottom: 1em;
+    padding-top: 3em;
+}
+
+.fab, .fas{
+    margin: 5px;
+    position: relative;
+    top: 280px;
+}
+
+.info-down{
+    line-height: 2.5em;
+}
+
+.oficial img{
+    height: auto;
+    margin: 0.5em 0em;
+    position: relative;
+    top: 30vh;
+    width: 80%;
+}
+
+.the-last{
+    margin-bottom: 5em;
 }

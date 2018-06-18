@@ -7,6 +7,7 @@
     <title>LabCar</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -84,12 +85,12 @@
                     <div class="input-field col l10 s12">
                         <i class="material-icons prefix">radio_button_checked</i>
                         <input id="icon_prefix" type="text" class="validate">
-                        <label class="white-text" for="icon_prefix">Ingrese su punto de partida</label>
+                        <label class="white-text indications" for="icon_prefix"><span>Ingrese su punto de partida</span></label>
                     </div>
                     <div class="input-field col l10 s12">
                         <i class="material-icons prefix">send</i>
-                        <input id="icon_telephone" type="tel" class="validate bordesblancos">
-                        <label class="white-text" for="icon_telephone">Ingrese su destino</label>
+                        <input id="icon_telephone" type="text" class="validate">
+                        <label class="white-text indications" for="icon_telephone"><span>Ingrese su destino</span></label>
                     </div>
                 </div>
                 <a class="last-btn btn-flat white">¡TRAZAR RUTA!</a>
@@ -102,14 +103,18 @@
     </section>
     <footer class="page-footer #424242 grey darken-3">
         <div class="container">
-            <img class="col l12 m12 s12" src="assets/images/logoBlanco.png" alt="">
+            <img class="last-logo col l12 m12 s12" src="assets/images/logoBlanco.png" alt="">
             <div class="divider"></div>
-            <div class="row">
+            <div class="iconos row">
                 <div class="col l3 s6">
-                    iconos
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-play"></i>
                 </div>
                 <div class="col l3 s6">
-                    <ul>
+                    <ul class="info-down">
                         <li>Viaja</li>
                         <li>Conduce</li>
                         <li>Ciudades</li>
@@ -121,7 +126,7 @@
                     </ul>
                 </div>
                 <div class="col l3 s6">
-                    <ul>
+                    <ul class="info-down">
                         <li>Oportunidades</li>
                         <li>Nuestra historia</li>
                         <li>API de LabCar</li>
@@ -132,7 +137,7 @@
                         <li>Coders</li>
                     </ul>
                 </div>
-                <div class="col l3 s6">
+                <div class="oficial col l3 s6">
                     <div><img src="assets/images/appstore.png" alt=""></div>
                     <div><img src="assets/images/enBadgeWebGeneric.png" alt=""></div>
                 </div>
@@ -140,7 +145,7 @@
             <div class="divider"></div>
         </div>
         <div class="footer-copyright">
-            <div class="container">
+            <div class="the-last container">
                 © 2017 LabCar Technologies Inc.
             </div>
         </div>
