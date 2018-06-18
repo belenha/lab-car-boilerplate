@@ -29,6 +29,10 @@ h4, h5, h6{
     border-radius: 6px;
 }
 
+hr{
+    border: 1px solid white;
+}
+
 .btn-become{
     text-transform: initial;
 }
@@ -90,6 +94,10 @@ h4, h5, h6{
     text-transform: initial;
 }
 
+.final-section{
+    position: relative;
+    top: 50px;
+}
 
 .last-btn{
     font-weight: 600;
@@ -109,14 +117,19 @@ input[type=text]:not(.browser-default){
     color: white;
 }
 
-.input-field:last-child{
+/* .input-field:last-child{
     display: inherit;
     position: relative;
-}
+} */
 
 span{
     left: 10px;
     position: relative;
+}
+
+.gdlmap{
+    border: 1px solid white;
+    margin: 10px;
 }
 
 .last-logo{
@@ -140,17 +153,20 @@ span{
     margin: 0.5em 0em;
     position: relative;
     top: 30vh;
-    width: 80%;
+    width: 75%;
 }
 
 .the-last{
     margin-bottom: 5em;
 }
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
+    .brand-logo{
+        align-content: flex-start;
+    }
     .iconos{
         align-content: inherit;
         top: 1vh;
         width: 100%;
     }
-}
+} */

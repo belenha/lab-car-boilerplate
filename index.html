@@ -21,7 +21,16 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="#" class="black-text">Viaja</a></li>
                 <li><a href="#" class="black-text">Conduce</a></li>
-                <li><a href="#" class="black-text">Inicia Sesión</a></li>
+                <li><a href="#modal1" class="black-text modal-trigger">Inicia Sesión</a></li>
+                <!-- <div id="modal1" class="modal">
+                        <div class="modal-content">
+                          <h4>Modal Header</h4>
+                          <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                      </div> -->
             </ul>
         </div>
     </nav>
@@ -33,13 +42,16 @@
     <header>
         <div></div>
         <div class="row taxi-image">
-            <div class="space container right col s8 l4 #ffb300 amber darken-1">
+            <div class="col l8 m8 s4"></div>
+            <div class="space container right col l4 m4 s8 #ffb300 amber darken-1">
                 <h4 class="white-text  offset-l2 s2">Disfruta del viaje <br> Eres dueño de tu tiempo</h4>
                 <h5 class="white-text">Viaja con<img class="responsive-img" src="assets/images/logoBlanco.png" alt=""></h5>
                 <div class="section">
                     <a class="btn-flat white">REGÍSTRATE</a>
-                    <div class="section">
-                        <div class="divider"></div>
+                    <div class="section row">
+                        <span class="col l4 m4 s4"><hr></span>
+                        <span class="col l4 m4 s4 white-text center-align">o bien</span>
+                        <span class="col l4 m4 s4"><hr></span>
                     </div>
                     <a class="btn-become btn-flat white">Conviértete en un conductor</a>
                 </div>
@@ -80,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <article>
         <div class="row #ffb300 amber darken-1">
             <div class="final-section offset-l1 col l5 m6 s12">
                 <h5 class="white-text">Tarifas</h5>
@@ -89,22 +101,23 @@
                     <div class="input-field col l10 s12">
                         <i class="material-icons prefix">radio_button_checked</i>
                         <input id="icon_prefix" type="text" class="validate">
-                        <label class="white-text indications" for="icon_prefix"><span>Ingrese su punto de partida</span></label>
+                        <label class="white-text indications"><span>Ingrese su punto de partida</span></label>
                     </div>
                     <div class="input-field col l10 s12">
                         <i class="material-icons prefix">send</i>
                         <input id="icon_telephone" type="text" class="validate">
-                        <label class="white-text indications" for="icon_telephone"><span>Ingrese su destino</span></label>
+                        <label class="white-text indications"><span>Ingrese su destino</span></label>
                     </div>
                 </div>
                 <a class="last-btn btn-flat white">¡TRAZAR RUTA!</a>
-    
             </div>
-            <div class="col l6 m6 s12">
-                <p>mapa</p>
+            <div class="valign-wrapper col l6 m6 s12">
+                <div class="gdlmap">
+                    <iframe class="gdlmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119452.69716917786!2d-103.40545358012501!3d20.67377770932267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C+Jalisco!5e0!3m2!1sen!2smx!4v1529350893338" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </section>
+    </article>
     <footer class="page-footer #424242 grey darken-3">
         <div class="container">
             <img class="responsive-img last-logo col l12 m12 s12" src="assets/images/logoBlanco.png" alt="">
