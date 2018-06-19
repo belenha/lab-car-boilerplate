@@ -144,6 +144,19 @@ span{
     top: 280px;
 }
 
+.stop{
+    bottom: 280px;
+    position: relative;
+}
+
+.only-mobile{
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    width: 60%;
+}
+
 .info-down{
     line-height: 2.5em;
 }
